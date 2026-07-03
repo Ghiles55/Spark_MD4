@@ -10,11 +10,8 @@ venv/
 .ipynb_checkpoints/
 # Donnees open data telechargees (volumineuses, ne pas committer)
 data/datasets/
-# Sorties Spark generees par les TP et le projet
+# Sorties Spark generees par les TP et le projet (metastore local, pas nos resultats)
 spark-warehouse/
 metastore_db/
 derby.log
-output/
-*.crc
-_SUCCESS
 explications/
